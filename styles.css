@@ -1,7 +1,8 @@
 body {
 	width: 100%;
 	margin: 0;
-	background: url(omqqspi.png);/*	rgb(152, 223, 138); */
+    padding: 0;
+	background: url(omqqspi.png);
     background-attachment: fixed;
 	font-family: courier;
 }
@@ -14,7 +15,7 @@ h3 {
 }
 
 .nav {
-	width: 170px;
+	width: 120px;
 	position: fixed;
 	right: 2%;
 	top: 50px;
@@ -22,6 +23,12 @@ h3 {
 	border: 2px solid white;
 	border-radius: 8px;
 	box-shadow: 0 0 20px #555;
+    text-shadow: 0 0 5px #ccc;
+}
+
+.nav > ul {
+    list-style-type: none;
+    text-indent: -20px;
 }
 
 .container {
